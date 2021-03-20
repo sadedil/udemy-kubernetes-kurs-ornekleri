@@ -4,4 +4,4 @@ Bu repo'da, Udemy'de hazırladığım "Kubernetes'e Başlarken" kursunda kullan�
 
 Tanıtım videosunu izlemek için aşağıdaki görüntüye tıklayabilirsiniz
 
-[![Kubernetes'e Başlarken Tanıtım Videosu](https://user-images.githubusercontent.com/2132971/111875628-e76c9d00-89ab-11eb-9332-0a54169c819c.png)](https://www.youtube.com/watch?v=3uZDuYts7tI&feature=youtu.be&hd=1 "Kubernetes'e Başlarken Tanıtım Videosu")
+[![Kubernetes'e Başlarken Tanıtım Videosu](https://user-images.githubusercontent.com/2132971/111875775-898c8500-89ac-11eb-90e0-bf997024324e.png)](https://www.youtube.com/watch?v=3uZDuYts7tI&feature=youtu.be&hd=1 "Kubernetes'e Başlarken Tanıtım Videosu")
