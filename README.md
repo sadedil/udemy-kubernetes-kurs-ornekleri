@@ -1,4 +1,4 @@
-# Udemy "Kubernetes'e Başlarken" kurs örnekleri
+# Kubernetes'e Başlarken adlı Udemy kursu için örnek dosyalar
 
 Bu repo'da, Udemy'de hazırladığım "Kubernetes'e Başlarken" kursunda kullanılan örnek dosyaları bulabilirsiniz. Kayıt olmak için [bu linki](https://www.udemy.com/course/kubernetese-baslarken/?referralCode=A2115E4E29667B515210) takip edebilirsiniz.
 
