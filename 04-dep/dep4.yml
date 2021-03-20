@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dep4
+  namespace: ns4
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  minReadySeconds: 5
+  replicas: 4
+  selector:
+    matchLabels:
+      mykey: myvalue
+  template:
+    metadata:
+      name: pod4
+      labels:
+        mykey: myvalue
+    spec:
+      containers:
+      - name: container4
+        image: sadedil/simpleinfoserver:1.0.0
+        ports:
+        - containerPort: 80

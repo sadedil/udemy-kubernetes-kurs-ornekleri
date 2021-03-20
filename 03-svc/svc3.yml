@@ -1,0 +1,14 @@
+apiVersion: v1                                # service definition starts from here
+kind: Service
+metadata:
+  name: service-for-label-1
+  namespace: ns3
+spec:
+  type: NodePort                              # Try to LoadBalancer if you deploy this yaml to any cloud service
+  selector:
+    app: my-label-1
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80                                  # The application's port, running in the container
+    targetPort: 80                            # By default the targetPort will be set to the same value as the port field

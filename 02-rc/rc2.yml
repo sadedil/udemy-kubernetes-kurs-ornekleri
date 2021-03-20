@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: rc2
+spec:
+  replicas: 3
+  selector:
+    app: my-label-1
+  template:                                   # pod definition starts from here
+    metadata:
+      name: pod2
+      labels:
+        app: my-label-1
+    spec:
+      containers:
+      - name: container2
+        image: sadedil/simpleinfoserver:latest
+        ports:
+        - containerPort: 80
