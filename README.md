@@ -6,7 +6,7 @@ Bu repo'da, Udemy'de hazırladığım **Kubernetes'e Başlarken** kursunda kulla
 * [Replication Controller örnekleri](https://github.com/sadedil/udemy-kubernetes-kurs-ornekleri/tree/main/02-rc)
 * [Service örnekleri](https://github.com/sadedil/udemy-kubernetes-kurs-ornekleri/tree/main/03-svc)
 * [Deployment örnekleri](https://github.com/sadedil/udemy-kubernetes-kurs-ornekleri/tree/main/04-dep)
-* [Kubectl Komut Örnekleri](#kurs-içerisinde-kullanılan-kubectl-ve-minikube-komutları)
+* [Kurs içerisinde kullanılan `kubectl` ve `minikube` komutları](#kurs-içerisinde-kullanılan-kubectl-ve-minikube-komutları)
 
 > Tanıtım videosunu izlemek için aşağıdaki görüntüye tıklayabilirsiniz
 
@@ -79,3 +79,7 @@ Bu repo'da, Udemy'de hazırladığım **Kubernetes'e Başlarken** kursunda kulla
 `kubectl get rs`: _ReplicaSet_'leri listeler.
 
 `kubectl rollout undo deploy dep4`: _dep4_ isimli _Deployment_ objesini, bir önceki sürüme getirir (_rollback_)
+
+## Repo'ya katkı verenler
+
+- [akiffeyzioglu](https://github.com/akiffeyzioglu)
